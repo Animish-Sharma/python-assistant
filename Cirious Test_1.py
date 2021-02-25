@@ -48,7 +48,7 @@ def send_email_(to,content):
         server = smtplib.SMTP('smtp.gmail.com',587)
         server.ehlo()
         server.starttls()
-        server.login('testpersonid2@gmail.com','testperson2')
+        server.login('testpersonid2@gmail.com','your password')
         server.sendmail('testperson2@gmail.com',to,content)
         server.close()
     except:
