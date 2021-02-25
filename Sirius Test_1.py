@@ -15,7 +15,7 @@ import time
 import wolframalpha
 from urllib.request import urlopen
 engine = pyttsx3.init()
-wolframalpha_app_id = '3L9Q53-7EJ96XA5E7'
+wolframalpha_app_id = 'your id'
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
